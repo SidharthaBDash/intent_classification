@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "intent-classification"
+version = "0.1.0"
+description = ""
+authors = ["SidharthaBDash <sidhartha.dash@reverieinc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "2.1.0"
+sklearn-pandas = "2.2.0"
+transformers = "4.35.2"
+numpy = "1.23.5"
+pandas = "1.5.3"
+tqdm = "4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
